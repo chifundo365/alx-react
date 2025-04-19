@@ -1,0 +1,24 @@
+
+body {
+    background-color: aliceblue;
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+#logo {
+    width: 200px;
+    height: 200px;
+    background-image: url(../assets/holberton-logo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#wrapper {
+    display: flex;
+    width: 70%;
+}
+
+#wrapper p {
+    font-style: bold;
+}
