@@ -1,0 +1,40 @@
+
+#App {
+    display:flex;
+    flex-direction:column;
+    min-height: 100vh;
+    margin:10px 10px;
+
+}
+
+.App-header {
+    display: flex;
+    height: 200px;
+    color: #ffffff;
+    border-bottom:  3px solid #d9304f;
+
+
+}
+
+.App-header img {
+    width:200px;
+    height:100%;
+    margin-right:40px;
+}
+
+.App-header h1 {
+    color: #e23151;
+    align-self: center;
+}
+
+.App-body {
+    flex:1;
+    margin-left: 30px;
+}
+
+.App-footer {
+    border-top: 3px solid #d9304f;
+    display: flex;
+    align-items: center;
+    justify-content: center;                                                                          
+}    
